@@ -1,0 +1,12 @@
+﻿@page
+@model MyValidation.Pages.Books.IndexModel
+@{
+}
+
+<h1> Books </h1>
+
+<hr />
+@if(TempData["bookName"] is not null)
+{
+    <p>@TempData["bookName"]</p>
+}
